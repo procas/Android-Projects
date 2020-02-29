@@ -1,0 +1,64 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/promamukherjee/Desktop/Android/AndroidStudioProjects/Quiz_Contest/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/promamukherjee/Desktop/Android/AndroidStudioProjects/Quiz_Contest/app/src/main/res/values/styles_example.xml",
+                    "from": {
+                        "startLines": "35,57,44,49,40,21,62",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "1565,2479,1962,2170,1762,801,2774",
+                        "endLines": "38,59,46,53,42,33,65",
+                        "endColumns": "12,12,12,12,12,12,12",
+                        "endOffsets": "1756,2688,2163,2459,1956,1559,3023"
+                    },
+                    "to": {
+                        "startLines": "11,15,28,31,36,39,52",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "597,793,1458,1664,1958,2157,2920",
+                        "endLines": "14,17,30,35,38,51,55",
+                        "endColumns": "12,12,12,12,12,12,12",
+                        "endOffsets": "788,1002,1659,1953,2152,2915,3169"
+                    }
+                },
+                {
+                    "source": "/Users/promamukherjee/Desktop/Android/AndroidStudioProjects/Quiz_Contest/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "191,522",
+                        "endLines": "12,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "481,679"
+                    },
+                    "to": {
+                        "startLines": "18,25",
+                        "startColumns": "4,4",
+                        "startOffsets": "1007,1298",
+                        "endLines": "24,27",
+                        "endColumns": "12,12",
+                        "endOffsets": "1293,1453"
+                    }
+                },
+                {
+                    "source": "/Users/promamukherjee/Desktop/Android/AndroidStudioProjects/Quiz_Contest/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "3,4,5,10,8,11,6,7,9",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "59,110,164,479,352,543,216,283,417",
+                        "endColumns": "49,52,50,62,63,65,65,67,60",
+                        "endOffsets": "104,158,210,537,411,604,277,346,473"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,105,158,209,272,336,402,468,536",
+                        "endColumns": "49,52,50,62,63,65,65,67,60",
+                        "endOffsets": "100,153,204,267,331,397,463,531,592"
+                    }
+                }
+            ]
+        }
+    ]
+}

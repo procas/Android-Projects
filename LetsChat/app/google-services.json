@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "513087393406",
+    "firebase_url": "https://letschat-22cad.firebaseio.com",
+    "project_id": "letschat-22cad",
+    "storage_bucket": "letschat-22cad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513087393406:android:3232ea757f140541",
+        "android_client_info": {
+          "package_name": "wixsiteprocas.mailtoproma.com.letschat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513087393406-lq927vgdvsamt6vocc1j0kolj3v5knqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYrFVK85QSvyV-octwi1XRbW4PKaQkdqI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513087393406:android:bbb9f231a03d8339",
+        "android_client_info": {
+          "package_name": "com.thenewboston.list"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513087393406-lq927vgdvsamt6vocc1j0kolj3v5knqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYrFVK85QSvyV-octwi1XRbW4PKaQkdqI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

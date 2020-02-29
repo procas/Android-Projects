@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/aspirations"
+            android:icon="@drawable/ic_action_action_accessibility"
+            android:title="Aspirations" />
+        <item
+            android:id="@+id/why_accenture"
+            android:icon="@drawable/ic_action_action_question_answer"
+            android:title="Why Accenture?" />
+        <item
+            android:id="@+id/other_apps"
+            android:icon="@drawable/ic_action_navigation_apps"
+            android:title="Other Apps" />
+        <item
+            android:id="@+id/career_goals"
+            android:icon="@drawable/ic_action_action_assignment"
+            android:title="Career Goals" />
+        <item
+            android:id="@+id/strength"
+            android:icon="@drawable/ic_action_action_assignment"
+            android:title="Strengths" />
+        <item
+            android:id="@+id/weaknesses"
+            android:icon="@drawable/ic_action_image_center_focus_weak"
+            android:title="Weaknesses" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/ic_action_action_perm_phone_msg"
+                android:title="Contact" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

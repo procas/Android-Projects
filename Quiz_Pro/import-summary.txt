@@ -1,0 +1,137 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\workspace.xml
+* app\
+* app\build.gradle
+* app\src\
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\java\
+* app\src\main\java\com\
+* app\src\main\java\com\example\
+* app\src\main\java\com\example\quiz_contest\
+* app\src\main\java\com\example\quiz_contest\FinalActivity.java
+* app\src\main\java\com\example\quiz_contest\GameStart.java
+* app\src\main\java\com\example\quiz_contest\HighScores.java
+* app\src\main\java\com\example\quiz_contest\HomeScreen.java
+* app\src\main\java\com\example\quiz_contest\LoginScreen.java
+* app\src\main\java\com\example\quiz_contest\MainActivity.java
+* app\src\main\java\com\example\quiz_contest\QuizActivity.java
+* app\src\main\res\
+* app\src\main\res\drawable-hdpi\
+* app\src\main\res\drawable-hdpi\ab_bottom_solid_example.9.png
+* app\src\main\res\drawable-hdpi\ab_solid_example.9.png
+* app\src\main\res\drawable-hdpi\ab_stacked_solid_example.9.png
+* app\src\main\res\drawable-hdpi\ab_texture_tile_example.png
+* app\src\main\res\drawable-hdpi\ab_transparent_example.9.png
+* app\src\main\res\drawable-hdpi\an.png
+* app\src\main\res\drawable-hdpi\btn_cab_done_default_example.9.png
+* app\src\main\res\drawable-hdpi\btn_cab_done_focused_example.9.png
+* app\src\main\res\drawable-hdpi\btn_cab_done_pressed_example.9.png
+* app\src\main\res\drawable-hdpi\btn_style.xml
+* app\src\main\res\drawable-hdpi\button.xml
+* app\src\main\res\drawable-hdpi\button_enabled.xml
+* app\src\main\res\drawable-hdpi\cab_background_bottom_example.9.png
+* app\src\main\res\drawable-hdpi\cab_background_top_example.9.png
+* app\src\main\res\drawable-hdpi\fjacalogo.png
+* app\src\main\res\drawable-hdpi\hover.png
+* app\src\main\res\drawable-hdpi\ic_action_overflow.png
+* app\src\main\res\drawable-hdpi\ic_launcher.png
+* app\src\main\res\drawable-hdpi\list_focused_example.9.png
+* app\src\main\res\drawable-hdpi\list_pressed_example.9.png
+* app\src\main\res\drawable-hdpi\menu_dropdown_panel_example.9.png
+* app\src\main\res\drawable-hdpi\pressed.png
+* app\src\main\res\drawable-hdpi\selectable_background_example.xml
+* app\src\main\res\drawable-hdpi\wall2.jpg
+* app\src\main\res\drawable-ldpi\
+* app\src\main\res\drawable-ldpi\ic_launcher.png
+* app\src\main\res\drawable-ldpi\wall2.jpg
+* app\src\main\res\drawable-mdpi\
+* app\src\main\res\drawable-mdpi\ic_launcher.png
+* app\src\main\res\drawable-mdpi\wall2.jpg
+* app\src\main\res\drawable-xhdpi\
+* app\src\main\res\drawable-xhdpi\ic_launcher.png
+* app\src\main\res\drawable-xhdpi\wall2.jpg
+* app\src\main\res\layout\
+* app\src\main\res\layout\activity_final.xml
+* app\src\main\res\layout\activity_game_start.xml
+* app\src\main\res\layout\activity_high_scores.xml
+* app\src\main\res\layout\activity_home_screen.xml
+* app\src\main\res\layout\activity_login_screen.xml
+* app\src\main\res\layout\activity_quiz.xml
+* app\src\main\res\layout\main.xml
+* app\src\main\res\layout\roundborder.xml
+* app\src\main\res\menu\
+* app\src\main\res\menu\activity_final.xml
+* app\src\main\res\menu\activity_game_start.xml
+* app\src\main\res\menu\activity_high_scores.xml
+* app\src\main\res\menu\activity_home_screen.xml
+* app\src\main\res\menu\activity_login_screen.xml
+* app\src\main\res\menu\activity_main.xml
+* app\src\main\res\menu\activity_quiz.xml
+* app\src\main\res\menu\main.xml
+* app\src\main\res\raw\
+* app\src\main\res\raw\alert2.mp3
+* app\src\main\res\values-v11\
+* app\src\main\res\values-v11\styles.xml
+* app\src\main\res\values-v14\
+* app\src\main\res\values-v14\styles.xml
+* app\src\main\res\values\
+* app\src\main\res\values\strings.xml
+* app\src\main\res\values\styles.xml
+* app\src\main\res\values\styles_example.xml
+* build.gradle
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:26.0.0-alpha1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* assets\ => app\src\main\assets
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

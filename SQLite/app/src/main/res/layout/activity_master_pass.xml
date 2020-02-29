@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="thenewboston.com.sqlite.MasterPass"
+    android:background="#e0effa">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/firstPass"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="153dp"
+        android:hint="Enter master password"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/secondPass"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:hint="Re-enter master password" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText3"
+        android:layout_marginTop="34dp"
+        android:hint="Enter retrieval e-mail"
+        android:layout_below="@+id/secondPass"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView4"
+        android:src="@drawable/warning"
+        android:layout_above="@+id/textView2"
+        android:layout_alignStart="@+id/submitPass"
+        android:background="#c9e9fe" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Master password once set cannot be reset"
+        android:id="@+id/textView2"
+        android:textColor="#f8baba"
+        android:layout_alignBottom="@+id/firstPass"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="68dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/submitPass"
+        android:layout_marginBottom="41dp"
+        android:background="@color/abc_search_url_text_normal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/incorrectPass"
+        android:layout_below="@+id/secondPass"
+        android:layout_alignEnd="@+id/imageView4" />
+</RelativeLayout>

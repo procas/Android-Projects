@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="thenewboston.com.sqlite.SingleRow">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Large Text"
+        android:id="@+id/lItem"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:id="@+id/options"
+        android:src="@drawable/delete"
+        android:layout_gravity="right"
+        android:layout_alignBottom="@+id/lDate"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/lDate"
+        android:layout_below="@+id/lItem"
+        android:layout_alignStart="@+id/lItem" />
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/isLocked"
+        android:src="@drawable/lock"
+        android:layout_gravity="right"
+        android:layout_marginEnd="40dp"
+        android:layout_alignTop="@+id/options"
+        android:layout_toStartOf="@+id/options" />
+</RelativeLayout>

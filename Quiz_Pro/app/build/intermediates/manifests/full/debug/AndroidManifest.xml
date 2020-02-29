@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.proma.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="26.0.0-alpha1" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@drawable/an"
+        android:label="@string/app_name"
+        android:testOnly="true"
+        android:theme="@style/Theme.Example.Widget" >
+        <activity
+            android:name="com.proma.app.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.proma.app.HomeScreen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proma.app.LoginScreen"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proma.app.GameStart"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proma.app.QuizActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proma.app.FinalActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.proma.app.HighScores"
+            android:label="@string/app_name" >
+        </activity>
+    </application>
+
+</manifest>

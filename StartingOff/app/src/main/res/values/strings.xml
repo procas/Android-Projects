@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">StartingOff</string>
+    <string name="action_settings">Settings</string>
+    <string name="save_text">Save</string>
+</resources>

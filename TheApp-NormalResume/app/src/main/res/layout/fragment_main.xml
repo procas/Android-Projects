@@ -1,0 +1,249 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/rel"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+    tools:context="thenewboston.com.theapp_normalresume.MainActivity$PlaceholderFragment">
+
+
+    <TextView
+        android:id="@+id/section_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textColor="#7f1ca1"
+        android:textSize="35dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"/>
+
+    <Button
+        android:id="@+id/myself"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/section_label"
+        android:layout_below="@id/section_label"
+        android:layout_margin="10dp"
+        android:textColor="#1d758e"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif"
+        android:focusable="true"
+        android:onClick="aboutMe"
+        />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/me"/>
+
+
+    <ScrollView
+        android:id="@+id/scr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/scrollView"
+            android:fillViewport="true">
+        <TableLayout
+            android:id="@+id/tab"
+            android:gravity="center"
+            android:layout_marginTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="DEGREE"
+                    android:padding="6dip"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_column="2"
+                    android:text="INSTITUTE"
+                    android:padding="6dip"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_column="3"
+                    android:text="YEAR"
+                    android:padding="6dip"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_column="4"
+                    android:text="RESULTS"
+                    android:padding="6dip"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:layout_column="5"
+                    android:text="REMARKS"
+                    android:padding="6dip"
+                    android:textStyle="bold"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="BTech"
+                    android:padding="3dip"
+                    />
+                <TextView
+                    android:layout_column="2"
+                    android:text="SRM UNIVERSITY"
+                    android:padding="3dip"
+                    />
+                <TextView
+                    android:layout_column="3"
+                    android:text="2016-19"
+                    android:padding="3dip"
+                    />
+                <TextView
+                    android:layout_column="4"
+                    android:text="9.5 CGPA"
+                    android:padding="3dip"
+                    />
+
+                <TextView
+
+                    android:layout_column="5"
+                    android:text="1. DEPARTMENT FIRST\n2. HACKATHON PARTICIPANT AND RUNNER-UP\n3. NSS CAMPAIGN PART-TAKER"
+                    android:padding="6dip"
+                    />
+
+            </TableRow>
+
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="HSC"
+                    android:padding="3dip"
+                    />
+                <TextView
+                    android:layout_column="2"
+                    android:text="ST. MICHAEL'S SCHOOL,DURGAPUR"
+                    android:padding="3dip"
+                    />
+                <TextView
+                    android:layout_column="3"
+                    android:text="2013-15"
+                    android:padding="3dip"
+                    />
+                <TextView
+                    android:layout_column="4"
+                    android:text="94.75%"
+                    android:padding="3dip"
+                    />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1. SCHOOL TOPPER\n2. STUDENT OF THE YEAR AWARD WINNER"
+                    android:padding="6dip"
+                    />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="ICSE"
+                    android:padding="3dip"
+                    />
+                <TextView
+                    android:layout_column="2"
+                    android:text="ST. MICHAEL'S SCHOOL, DURGAPUR"
+                    android:padding="3dip"
+                    />
+                <TextView
+                    android:layout_column="3"
+                    android:text="2010-13"
+                    android:padding="3dip"
+                    />
+                <TextView
+                    android:layout_column="4"
+                    android:text="90.5%"
+                    android:padding="3dip"
+                    />
+                <TextView
+                    android:layout_column="5"
+                    android:text="1. FIST CLASS FIRST\n2. PREFECTSHIP AWARDEE"
+                    android:padding="6dip"
+                    />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </HorizontalScrollView>
+
+
+
+    </ScrollView>
+
+
+
+
+    <Button
+        android:id="@+id/html"
+        android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:text="JAVA"
+        android:src="@drawable/html"
+        android:onClick="changeToHtml"
+        />
+    <Button
+        android:id="@+id/java"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="HTML"
+        android:src="@drawable/java"
+        android:layout_toRightOf="@id/html"
+        android:layout_marginLeft="30dp"
+        android:onClick="changeToJava"
+        />
+    <Button
+
+        android:id="@+id/js"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/java"
+        android:text="JAVASCRIPT"
+        android:layout_toRightOf="@id/java"
+        android:layout_marginLeft="30dp"
+        android:onClick="changeToJs"
+        />
+    <Button
+        android:id="@+id/py"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/java"
+        android:text="PYTHON"
+        android:layout_below="@id/java"
+        android:layout_marginTop="30dp"
+        android:onClick="changeToPy"
+        />
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/skill"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="85dp"/>
+</ScrollView>
+</RelativeLayout>

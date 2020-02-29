@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SavingThings</string>
+    <string name="action_settings">Settings</string>
+    <string name="save_text">SAVE</string>
+    <string name="send_text">Send</string>
+    <string name="title_activity_web_page">WebPage</string>
+    <string name="title_activity_show_file_list">ShowFileList</string>
+    <string name="title_activity_show">ShowActivity</string>
+    <string name="title_activity_file_content">FileContent</string>
+    <string name="title_activity_file_edit">FileEdit</string>
+</resources>

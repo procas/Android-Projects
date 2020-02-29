@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative"
+    android:contextClickable="true"
+    android:importantForAccessibility="yes"
+    android:touchscreenBlocksFocus="false">
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+
+        android:layout_alignParentStart="true"
+        android:accessibilityLiveRegion="assertive"
+        android:paddingTop="00dp"/>
+
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+    </ListView>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="SAVE"
+        android:id="@+id/save"
+
+        android:layout_alignBottom="@+id/view"
+        android:layout_toEndOf="@+id/view"
+        android:layout_alignTop="@+id/view" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIEW RECORDS"
+        android:id="@+id/view"
+        android:layout_above="@+id/list"
+        android:layout_centerHorizontal="true"
+       />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:id="@+id/add"
+        android:onClick="addNames"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/view" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/exit"
+
+        android:src="@drawable/ic_action_action_settings_power"
+        android:color="#FFE01818"
+        android:onClick="stop"
+        android:layout_below="@+id/add" />
+
+
+</RelativeLayout>

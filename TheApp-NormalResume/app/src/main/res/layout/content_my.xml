@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:scrollbarStyle="outsideInset"
+        tools:context="thenewboston.com.theapp_normalresume.MyActivity"
+        tools:showIn="@layout/app_bar_my"
+        android:background="#ffbefb"
+        android:id="@+id/detail_area">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2">
+        <TextView
+        android:id="@+id/asp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:layout_margin="30dp"/>
+
+
+    </ScrollView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contact"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="100dp"/>
+
+
+
+        <ImageButton
+            android:id="@+id/call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#bbbbbb"
+            android:src="@drawable/ic_action_communication_call"
+            android:layout_alignParentBottom="true"
+
+            />
+        <ImageButton
+            android:id="@+id/mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#bbbbbb"
+            android:src="@drawable/ic_action_communication_email"
+            android:layout_toRightOf="@id/call"
+            android:layout_alignParentBottom="true"
+
+            />
+        <View
+            android:id="@+id/div"
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+           android:layout_toRightOf="@id/call"
+            android:layout_alignParentBottom="true"
+            />
+
+
+
+
+        <ScrollView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:fillViewport="false">
+
+    <TextView
+        android:id="@+id/stren"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="100dp"
+        />
+    </ScrollView>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="false">
+        <TextView
+        android:id="@+id/intro"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"/>
+    </ScrollView>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/horizontalScrollView"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/scrollView"
+            android:fillViewport="false"><TableLayout
+            android:id="@+id/tab"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="App name/content"
+                    android:textStyle="bold"
+                    android:padding="40dip"/>
+                <TextView
+                    android:layout_column="3"
+                    android:text="Url"
+                    android:textStyle="bold"
+                    android:padding="40dip"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="CALCULATOR (DESKTOP APP)"
+                    android:padding="40dip"/>
+
+                <TextView
+                    android:layout_column="3"
+                    android:text="http://www.4shared.com/file/Z-aq0s7cce/Calculator.html"
+                    android:padding="40dip"
+                    android:onClick="openCal"
+                    android:textColor="#606ff6"
+                    android:focusableInTouchMode="true" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="SUPERMARKETING (DESKTOP APP)"
+                    android:padding="40dip"/>
+
+                <TextView
+                    android:layout_column="3"
+                    android:text="1. http://www.4shared.com/file/klxLlTHOce/WELCOME_TO_SUPER_MARKETING.html\n2. http://www.4shared.com/office/iUim2uBJce/README.html"
+                    android:padding="40dip"
+                    android:textColor="#6a73f1"
+                    android:onClick="openMar" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="SAVING FILES (ANDROID)"
+                    android:padding="40dip"/>
+
+                <TextView
+                    android:layout_column="3"
+                    android:text="https://www.4shared.com/mobile/lebvHsP0ce/thenewbostoncomsavingthings.html"
+                    android:padding="40dip"
+                    android:textColor="#6a73f1"
+                    android:onClick="openSav" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="LISTING ITEMS (ANDROID)"
+                    android:padding="40dip"/>
+
+                <TextView
+                    android:layout_column="3"
+                    android:text="https://www.4shared.com/mobile/7XomGbxKba/thenewbostoncomlistofitems.html"
+                    android:padding="40dip"
+                    android:textColor="#6a73f1"
+                    android:onClick="openLis" />
+            </TableRow>
+
+            <TableRow>
+                <TextView
+                    android:layout_column="1"
+                    android:text="A SIMPLE DESIGNER SWITCH (ANDROID)"
+                    android:padding="40dip"/>
+
+                <TextView
+                    android:layout_column="3"
+                    android:text="https://www.4shared.com/mobile/0lhkqJwace/thenewbostoncomattempt.html"
+                    android:padding="40dip"
+                    android:textColor="#6a73f1"
+                    android:onClick="openAt" />
+            </TableRow>
+        </TableLayout></HorizontalScrollView>
+    </ScrollView>
+
+</RelativeLayout>
+
+
+</ScrollView>

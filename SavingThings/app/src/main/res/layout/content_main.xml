@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:id="@+id/rel"
+    android:orientation="vertical">
+
+   <android.support.v7.widget.Toolbar
+       android:id="@+id/toolbar"
+       android:layout_width="match_parent"
+       android:layout_height="?attr/actionBarSize"
+       android:background="#a998a0"
+       android:layout_alignParentTop="true"
+       android:layout_alignEnd="@+id/button"
+       style="@style/AppTheme.NoActionBar" />
+
+
+
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="VIEW RECORDS"
+       android:id="@+id/button"
+       android:onClick="openList"
+       android:layout_alignBottom="@+id/toolbar"
+       android:layout_alignParentEnd="true"
+       android:shadowColor="#471212"
+       android:typeface="serif"
+       android:textColorHighlight="#fc8989"
+       android:textColorHint="#f37979"
+       android:outlineProvider="paddedBounds" />
+
+   <Button
+       style="?android:attr/buttonStyleSmall"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="SAVE"
+       android:id="@+id/save"
+       android:layout_alignBottom="@+id/toolbar"
+       android:layout_toStartOf="@+id/button" />
+
+   <EditText
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:inputType="textMultiLine"
+       android:lines="1000"
+       android:minLines="2"
+
+       android:id="@+id/text"
+       android:background="@drawable/unnamed"
+       android:layout_alignParentStart="true"
+
+       android:layout_below="@+id/toolbar"
+       android:breakStrategy="high_quality"
+       android:fontFamily="@string/abc_search_hint"
+       android:textColor="#0a0b0a"
+       android:layout_alignEnd="@+id/button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ENTER FILE CONTENT"
+        android:id="@+id/textView"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignParentStart="true"
+        android:background="#f7f1f1" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/power"
+        android:layout_alignTop="@+id/save"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/ic_action_action_settings_power"
+        android:color="#FFE01818"
+        android:onClick="exit"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+    </android.support.design.widget.AppBarLayout>
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/tableview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="150dp"
+            android:stretchColumns="1"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="30dp">
+
+            <TableRow>
+
+                <TextView
+                    android:padding="9dip"
+                    android:text="@string/space" />
+
+                <TextView
+                    android:padding="5dip"
+                    android:text="@string/hour1" />
+
+                <TextView
+                    android:padding="5dip"
+                    android:text="@string/hour2" />
+
+                <TextView
+                    android:padding="5dip"
+                    android:text="@string/hour3" />
+
+                <TextView
+                    android:padding="5dip"
+                    android:text="@string/hour4" />
+
+                <TextView
+                    android:padding="5dip"
+                    android:text="@string/hour5" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="9dip"
+                    android:text="@string/day1" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="9dp"
+                    android:text="@string/day2"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="9dip"
+                    android:text="@string/day3" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="9dip"
+                    android:text="@string/day4" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="9dip"
+                    android:text="@string/day5" />
+            </TableRow>
+
+
+        </TableLayout>
+
+
+
+</android.support.design.widget.CoordinatorLayout>

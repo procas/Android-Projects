@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">BSProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="day3">Day3</string>
+    <string name="space" />
+    <string name="hour1">HOUR1</string>
+    <string name="hour2">HOUR2</string>
+    <string name="hour3">HOUR3</string>
+    <string name="hour4">HOUR4</string>
+    <string name="hour5">HOUR5</string>
+    <string name="day1">Day1</string>
+    <string name="day2">Day2</string>
+    <string name="day4">Day4</string>
+    <string name="day5">Day5</string>
+    <string name="time_table">TIME-TABLE</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="name">Name</string>
+    <string name="id">ID</string>
+    <string name="button">Button</string>
+    <string name="login">Login</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="login_portal">Login Portal</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string-array name="weekdays">
+        <item>--Select Day Order--</item>
+        <item>Day1</item>
+        <item>Day2</item>
+        <item>Day3</item>
+        <item>Day4</item>
+        <item>Day5</item>
+        <item>Day6</item>
+        <item>Day7</item>
+
+    </string-array>
+    <string name="title_activity_otp">OTPActivity</string>
+    <string name="title_activity_reset">ResetActivity</string>
+    <string name="title_activity_launch">Launch</string>
+
+</resources>
